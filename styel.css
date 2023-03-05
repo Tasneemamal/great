@@ -1,0 +1,322 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+/* frist */
+.frist{
+    background-image: url(blue_bg.png) ;
+    background-repeat: no-repeat;
+    height: 1100px;
+    background-size: 100% 75%;
+    background-position: top ;
+    position: relative;
+}
+.frist .navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.frist .navbar .nav-left{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    padding-left: 90px;
+}
+.frist .navbar .nav-left .left-im{
+    width: 25%;
+    height: 85px;
+    margin-top: 67px;
+    margin-right: 10px;
+}
+.frist .navbar .nav-left .nav-a{
+    text-decoration: none;
+    color: rgba(122, 122, 122 ,0.75);
+    margin-top: 105px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.frist .navbar .nav-left .nav-a1{
+    text-decoration: none;
+    color: rgba(122, 122, 122 ,0.75);
+    margin-top: 105px;
+    border-bottom: 3px solid  rgb(150, 42, 150);
+    margin-bottom: 38px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.frist .navbar .nav-right .right-im{
+    position: absolute;
+    top: 85px;
+    right: 100px;
+    width: 7%;
+}
+.frist .navbar .nav-right .nav-p{
+    position: absolute;
+    top: 90px;
+    right: 133px;
+    color: rgba(122, 122, 122 ,75);
+    font-size: 18px;
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.main .main-left{
+    margin-top: 180px;
+    margin-left: 9%;
+}
+.main .main-left .main-h{
+    margin-bottom: 38px;
+    font-size: 55px;
+    font-weight: lighter;
+    color: rgb(96, 96, 96);
+}
+.main .main-left .main-p{
+    font-size: 26px;
+    color: rgba(74, 74, 74, 0.5);
+}
+.main .main-right .main-im1{
+    width: 55%;
+    position: absolute;
+    z-index: -1;
+    top: 66px;
+    left: 725px;
+}
+.main .main-right .main-im2{
+    width: 21%;
+    position: absolute;
+    top: 125px;
+    right: 16.5%;
+}
+.main .main-right .main-im3{
+    position: absolute;
+    width: 30%;
+    top: 535px;
+    right: 11%;
+}
+.main .main-im4{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 663px;
+    right: 25%;
+}
+/* end frist */
+
+/* second */
+.second .sec-im{
+    width: 65%;
+    height: 520px;
+    position: absolute;
+    z-index: -1;
+    top: 890px;
+    left: 22%;
+}
+.second .sec-one{
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+}
+.second .sec-one .group1{
+   position: absolute;
+   top: 968px;
+   left: 8%;
+}
+.second .sec-one .group1 .sec-im1{
+    width: 50%;
+}
+.second .sec-one .group2{
+    position: absolute;
+    top: 1130px;
+    left: 38%;
+}
+.second .sec-one .group2 .sec-im2{
+    width: 45%;
+}
+.second .sec-two{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.second .sec-two .group3{
+    position: absolute;
+    top: 1400px;
+    left: 100px;
+}
+.second .sec-two .group3 .sec-im3{
+    width: 80%;
+}
+.second .sec-two .group3 .woord{
+    position: absolute;
+    top: 140px;
+    left: 28%;
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgb(229, 237, 244);
+}
+.second .sec-two .group3 .woords{
+    position: absolute;
+    top: 100px;
+    left: 28%;
+    font-size: 25px;
+    color: rgb(229, 237, 244);
+}
+.second .sec-two .group4{
+    position: absolute;
+    top: 1388px;
+    right: 9%;
+}
+.second .loon{
+    color: rgba(111, 110, 110, 0.5);
+    font-size: 20px;
+    font-weight: bolder;
+ }
+.second .up{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(101, 101, 101)
+}
+.second .sec-three{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    font-size: 30px;
+    color: rgba(122, 122, 122)
+}
+.second .sec-three .group5{
+    position: absolute;
+    top: 1980px;
+    left: 14%;
+}
+.second .sec-three .group5 .sec-im5{
+    width: 500%;
+}
+.second .sec-three .arrow1{ 
+    position: absolute;
+    top: 2188px;
+    left: 33% ;
+}
+.second .sec-three .arrow2{ 
+    position: absolute;
+    top: 2188px;
+    left: 67%;
+}
+.second .sec-three .group6{
+    position: absolute;
+    top: 1850px;
+    left: 34%;
+    overflow: hidden;
+}
+.second .sec-three .group6 .sec-im6{
+    width: 85%;
+}
+.second .sec-three .group6 .up{
+    position: absolute;
+    top: 380px;
+    left: 90px;
+}
+.second .sec-three .group6 .loon{
+    color: rgba(122, 122, 122 ,0.5 );
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 470px;
+    left: 92px;
+}
+.second .sec-three .group7{
+    position: absolute;
+    top: 1990px;
+    left: 72%;
+}
+/* end second  */
+.background{
+    background-image: url(background.png.png);
+    background-repeat: no-repeat;
+    background-size:  1740px 880px  ;
+    height: 81vh;
+    background-position: top;
+    margin-top: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.background .background-left{
+    padding-top: 400px;
+    margin-right: 750px;
+}
+.background .background-left .bordes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.background .background-left .bordes .border1{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    padding: 7px;
+    position: absolute;
+    top: 2630px;
+}
+.background .background-left .bordes .border1 .im1{
+    width: 20px;
+}
+.background .a{
+    text-decoration: none;
+}
+.background .background-left .bordes .border1 .a{
+    color: rgb(122, 122, 122);
+    font-size: 10px;
+    font-weight: bolder;
+}
+.background .background-left .bordes .border2{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    padding: 8px;
+    position: absolute;
+    top: 2630px;
+    left: 240px;
+}
+.background .background-left .bordes .border2 .im2{
+    width: 20px;
+}
+.background .background-left .bordes .border2 .a{
+    color: rgb(122, 122, 122);
+    font-weight: bolder;
+    font-size: 10px;
+}
+.background .background-left .icons{
+    margin-top: 100px;
+}   
+.background .background-left .icons .i{
+    margin-right: 10px;
+}
+.background .background-left .links{
+    margin-top: 30px;
+}
+.background .background-left .links .a{
+    color: whitesmoke;
+    margin-right: 60px;
+}
+.background .background-right{
+    position: absolute;
+    top: 2339px;
+    left: 45.3%;
+} 
+.background .background-right .man{
+    width: 85%;
+}
+
+
+
+
+
+
+
+
+
+
